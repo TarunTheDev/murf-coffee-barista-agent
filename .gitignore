@@ -1,0 +1,38 @@
+# Environment
+.env.local
+.env
+.env*.local
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build outputs
+.next/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
+
+# Orders/logs
+orders/
+*.log
+
+# Large files
+livekit-server.exe
+*.mp4
+*.mov
